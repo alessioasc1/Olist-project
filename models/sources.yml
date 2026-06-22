@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: olist_raw
+    database: DATA_ACADEMY 
+    schema: RAW
+    tables:
+      - name: ORDERS
+      - name: PRODUCTS
+      - name: GEOLOCATION
+      - name: CUSTOMERS
+      - name: ORDER_ITEMS
+      - name: ORDER_PAYMENTS
+      - name: ORDER_REVIEWS
+      - name: PRODUCT_CATEGORY_NAME_TRANSLATION
+      - name: SELLERS
