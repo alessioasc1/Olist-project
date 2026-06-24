@@ -44,3 +44,6 @@ models:
     core:
       +materialized: table
       +schema: CORE
+    bi:
+      +materialized: view
+      +schema: BI
