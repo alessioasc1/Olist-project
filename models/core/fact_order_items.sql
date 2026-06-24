@@ -12,7 +12,6 @@ orders AS (
 SELECT
     oi.order_id || '-' || oi.order_item_id AS unique_order_item_id,
     oi.order_id,
-    o.customer_id,
     COALESCE(oi.product_id, 'N/A') AS product_id, 
     COALESCE(oi.seller_id, 'N/A') AS seller_id,
     oi.shipping_limit_at,

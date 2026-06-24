@@ -23,7 +23,7 @@ order_payments_aggregated AS (
 
 SELECT
     o.order_id,
-    o.customer_id,
+    o.customer_id AS customer_id_per_transaction,
     o.order_status,
     o.purchase_at,
     o.approved_at,
